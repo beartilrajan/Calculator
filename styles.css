@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.btn {
+    height : 50px;
+    width: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.display{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
