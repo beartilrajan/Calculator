@@ -16,9 +16,29 @@ function divide(a, b) {
 
 }
 
-
+let previousInput = "";
+let operationInput = "";
+let currentInput = "";
 
 function pressNumber(num) {
-    let display = document.getElementById("display")
-    display.value += num;
+    currentInput += num;
+    document.getElementById('display').value = `${previousInput} ${operationInput} ${currentInput}`
+    
+}
+
+function getOperator(){
+
+}
+
+
+function clearDisplay() {
+    currentInput = "";
+    operationInpuut = "";
+    nextInput = "";
+    display.value = "";
+}
+
+
+function calculate() {
+
 }

@@ -14,19 +14,22 @@
         <button class="btn" id="btn_1" onclick="pressNumber(`1`)">1</button>
         <button class="btn" id="btn_2" onclick="pressNumber(`2`)">2</button>
         <button class="btn" id="btn_3" onclick="pressNumber(`3`)">3</button>
-        <button class="btn" id="btn_plus" onclick="pressNumber(`+`)">+</button>
+        <button class="btn" id="btn_plus" onclick="getOperator(`+`)">+</button>
+
         <button class="btn" id="btn_4" onclick="pressNumber(`4`)">4</button>
         <button class="btn" id="btn_5" onclick="pressNumber(`5`)">5</button>
         <button class="btn" id="btn_6" onclick="pressNumber(`6`)">6</button>
-        <button class="btn" id="btn_minus" onclick="pressNumber(`-`)">-</button>
+        <button class="btn" id="btn_minus" onclick="getOperator(`-`)">-</button>
+
         <button class="btn" id="btn_7" onclick="pressNumber(`7`)">7</button>
         <button class="btn" id="btn_8" onclick="pressNumber(`8`)">8</button>
         <button class="btn" id="btn_9" onclick="pressNumber(`9`)">9</button>
-        <button class="btn" id="btn_multiply" onclick="pressNumber(`X`)">*</button>
-        <button class="btn" id="btn_clear" onclick="pressNumber(``)">AC</button>
+        <button class="btn" id="btn_multiply" onclick="getOperator(`X`)">*</button>
+
+        <button class="btn" id="btn_clear" onclick="clearDisplay()">AC</button>
         <button class="btn" id="btn_0" onclick="pressNumber(`0`)">0</button>
-        <button class="btn" id="btn_divide" onclick="pressNumber(`/`)">/</button>
-        <button class="btn" id="btn_equals" onclick="pressNumber(``)">=</button>
+        <button class="btn" id="btn_divide" onclick="getOperator(`/`)">/</button>
+        <button class="btn" id="btn_equals" onclick="getOperator(``)">=</button>
     </div>
     <script src="main.js">
     </script>
